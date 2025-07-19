@@ -1,7 +1,7 @@
 ```markdown
 # Elite RFP Solutions — Responsive Website
 
-**Elite RFP Solutions** is a professional, mobile-optimized static website designed for businesses offering tender and RFP (Request for Proposal) services. This project includes modern design, interactive features, accessibility, and SEO best practices. Created with HTML, CSS, and JavaScript for the frontend and ready for easy local deployment with Node.js http-server or Python.
+**Elite RFP Solutions** is a professional, mobile-optimised static website designed for businesses offering tender and RFP (Request for Proposal) services. This project includes modern design, interactive features, accessibility, and SEO best practices. Created with HTML, CSS, and JavaScript for the frontend and ready for easy local deployment with Node.js http-server or Python.
 
 ---
 
