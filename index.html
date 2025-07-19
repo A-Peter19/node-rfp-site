@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Elite RFP Solutions - Leading provider of professional tender and RFP services. Expert bid writing, technical documentation, and proposal management with 78% success rate.">
+    <meta name="keywords" content="RFP services, bid writing, tender management, proposal writing, government contracts, technical writing, bid management">
+    <meta name="author" content="Elite RFP Solutions">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Elite RFP Solutions - Transform Your Bids Into Winning Proposals">
+    <meta property="og:description" content="Professional tender and RFP services with 500+ completed projects and 78% success rate. Expert bid writing and technical documentation.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://eliterfpsolutions.co.uk">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Elite RFP Solutions - Transform Your Bids Into Winning Proposals">
+    <meta name="twitter:description" content="Professional tender and RFP services with 500+ completed projects and 78% success rate.">
+    
+    <title>Elite RFP Solutions - Transform Your Bids Into Winning Proposals</title>
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__brand">
+                <h2 class="nav__logo">Elite RFP Solutions</h2>
+            </div>
+            
+            <ul class="nav__menu" id="navMenu">
+                <li class="nav__item"><a href="#home" class="nav__link active" data-page="home">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link" data-page="services">Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link" data-page="about">About Us</a></li>
+                <li class="nav__item"><a href="#case-studies" class="nav__link" data-page="case-studies">Case Studies</a></li>
+                <li class="nav__item"><a href="#blog" class="nav__link" data-page="blog">News & Blog</a></li>
+                <li class="nav__item"><a href="#technical-editing" class="nav__link" data-page="technical-editing">Technical Editing</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link" data-page="contact">Contact</a></li>
+            </ul>
+            
+            <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="nav__toggle-icon"></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Home Page -->
+        <section id="home" class="page active">
+            <!-- Hero Section -->
+            <div class="hero">
+                <div class="hero__content container">
+                    <h1 class="hero__title">Transform Your Bids Into Winning Proposals</h1>
+                    <p class="hero__description">Leading provider of professional tender and RFP services, helping businesses secure high-value contracts through expert bid writing, technical documentation, and strategic proposal management.</p>
+                    
+                    <div class="hero__stats">
+                        <div class="stat">
+                            <span class="stat__number">500+</span>
+                            <span class="stat__label">Projects Completed</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat__number">78%</span>
+                            <span class="stat__label">Success Rate</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat__number">£250M+</span>
+                            <span class="stat__label">Contract Value Won</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat__number">6+</span>
+                            <span class="stat__label">Years Experience</span>
+                        </div>
+                    </div>
+                    
+                    <div class="hero__actions">
+                        <button class="btn btn--primary btn--lg" data-page="contact">Get Started Today</button>
+                        <button class="btn btn--outline btn--lg" data-page="services">Our Services</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Services Overview -->
+            <section class="services-overview">
+                <div class="container">
+                    <h2 class="section__title">Our Expert Services</h2>
+                    <p class="section__description">Comprehensive RFP and tender services designed to maximize your success rate</p>
+                    
+                    <div class="services-grid" id="servicesGrid">
+                        <!-- Services will be populated by JavaScript -->
+                    </div>
+                    
+                    <div class="text-center">
+                        <button class="btn btn--primary" data-page="services">View All Services</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Preview -->
+            <section class="about-preview">
+                <div class="container">
+                    <div class="about-preview__content">
+                        <div class="about-preview__text">
+                            <h2 class="section__title">Why Choose Elite RFP Solutions?</h2>
+                            <p>With over 6 years of experience and a proven track record of success, we've helped businesses across the UK secure high-value contracts through expert bid management and technical writing.</p>
+                            <ul class="feature-list">
+                                <li><i class="fas fa-check"></i>78% success rate across 500+ projects</li>
+                                <li><i class="fas fa-check"></i>£250M+ in contract value secured</li>
+                                <li><i class="fas fa-check"></i>Expert team with 15+ years experience</li>
+                                <li><i class="fas fa-check"></i>Government and private sector expertise</li>
+                            </ul>
+                            <button class="btn btn--secondary" data-page="about">Learn More About Us</button>
+                        </div>
+                        <div class="about-preview__image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-handshake fa-5x"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Testimonials -->
+            <section class="testimonials">
+                <div class="container">
+                    <h2 class="section__title">What Our Clients Say</h2>
+                    <div class="testimonials-carousel" id="testimonialsCarousel">
+                        <!-- Testimonials will be populated by JavaScript -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact CTA -->
+            <section class="contact-cta">
+                <div class="container">
+                    <div class="cta-content">
+                        <h2 class="cta-title">Ready to Win Your Next Contract?</h2>
+                        <p class="cta-description">Get expert guidance from our experienced team and transform your bidding success rate.</p>
+                        <div class="cta-actions">
+                            <button class="btn btn--primary btn--lg" data-page="contact">Contact Us Today</button>
+                            <a href="tel:+442071234567" class="btn btn--outline btn--lg">Call Now: +44 20 7123 4567</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- Services Page -->
+        <section id="services" class="page">
+            <div class="container">
+                <div class="page-header">
+                    <h1>Our Services</h1>
+                    <p>Comprehensive RFP and tender services tailored to your business needs</p>
+                </div>
+                
+                <div class="services-detailed" id="servicesDetailed">
+                    <!-- Detailed services will be populated by JavaScript -->
+                </div>
+                
+                <div class="services-cta">
+                    <h2>Need a Custom Solution?</h2>
+                    <p>We tailor our services to meet your specific requirements and industry needs.</p>
+                    <button class="btn btn--primary" data-page="contact">Discuss Your Requirements</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Page -->
+        <section id="about" class="page">
+            <div class="container">
+                <div class="page-header">
+                    <h1>About Elite RFP Solutions</h1>
+                    <p>Your trusted partner in winning high-value contracts</p>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-story">
+                        <h2>Our Story</h2>
+                        <p>Founded in 2018, Elite RFP Solutions has grown to become the UK's leading provider of professional tender and RFP services. With a team of experienced bid managers, technical writers, and industry specialists, we've helped over 200 clients secure contracts worth more than £250 million.</p>
+                        
+                        <p>Our success is built on deep understanding of procurement processes, meticulous attention to detail, and a strategic approach that positions our clients ahead of the competition. Whether you're bidding for government contracts, private sector opportunities, or complex technical tenders, we have the expertise to help you win.</p>
+                    </div>
+                    
+                    <div class="about-mission">
+                        <h2>Our Mission</h2>
+                        <p>To transform the way businesses approach bidding by providing expert guidance, professional documentation, and strategic insights that consistently deliver winning results.</p>
+                    </div>
+                    
+                    <div class="team-section">
+                        <h2>Our Expert Team</h2>
+                        <div class="team-grid" id="teamGrid">
+                            <!-- Team members will be populated by JavaScript -->
+                        </div>
+                    </div>
+                    
+                    <div class="about-stats">
+                        <h2>Our Track Record</h2>
+                        <div class="stats-grid">
+                            <div class="stat-card">
+                                <i class="fas fa-trophy"></i>
+                                <span class="stat-number">78%</span>
+                                <span class="stat-label">Success Rate</span>
+                            </div>
+                            <div class="stat-card">
+                                <i class="fas fa-project-diagram"></i>
+                                <span class="stat-number">500+</span>
+                                <span class="stat-label">Projects Completed</span>
+                            </div>
+                            <div class="stat-card">
+                                <i class="fas fa-users"></i>
+                                <span class="stat-number">200+</span>
+                                <span class="stat-label">Clients Served</span>
+                            </div>
+                            <div class="stat-card">
+                                <i class="fas fa-pound-sign"></i>
+                                <span class="stat-number">£250M+</span>
+                                <span class="stat-label">Contract Value</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Case Studies Page -->
+        <section id="case-studies" class="page">
+            <div class="container">
+                <div class="page-header">
+                    <h1>Case Studies</h1>
+                    <p>Real success stories from our winning proposals</p>
+                </div>
+                
+                <div class="case-studies-grid" id="caseStudiesGrid">
+                    <!-- Case studies will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Page -->
+        <section id="blog" class="page">
+            <div class="container">
+                <div class="page-header">
+                    <h1>News & Blog</h1>
+                    <p>Industry insights, trends, and expert advice</p>
+                </div>
+                
+                <div class="blog-grid" id="blogGrid">
+                    <!-- Blog posts will be populated by JavaScript -->
+                </div>
+                
+                <div class="newsletter-signup">
+                    <h2>Stay Updated</h2>
+                    <p>Subscribe to our newsletter for the latest industry insights and bid writing tips</p>
+                    <form class="newsletter-form" id="newsletterForm">
+                        <input type="email" class="form-control" placeholder="Enter your email address" required>
+                        <button type="submit" class="btn btn--primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Editing Page -->
+        <section id="technical-editing" class="page">
+            <div class="container">
+                <div class="page-header">
+                    <h1>Technical Editing Services</h1>
+                    <p>Professional editing and review of technical documents</p>
+                </div>
+                
+                <div class="technical-editing-content">
+                    <div class="service-overview">
+                        <h2>Expert Technical Editing</h2>
+                        <p>Our technical editing services ensure your documents are clear, compliant, and compelling. We enhance readability while maintaining technical accuracy, helping your proposals stand out to evaluators.</p>
+                        
+                        <div class="editing-features">
+                            <div class="feature-grid">
+                                <div class="feature-item">
+                                    <i class="fas fa-search"></i>
+                                    <h3>Document Review</h3>
+                                    <p>Comprehensive review for clarity, accuracy, and compliance</p>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-edit"></i>
+                                    <h3>Content Restructuring</h3>
+                                    <p>Reorganize content for better flow and readability</p>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <h3>Compliance Checking</h3>
+                                    <p>Ensure adherence to industry standards and requirements</p>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-balance-scale"></i>
+                                    <h3>Consistency Enhancement</h3>
+                                    <p>Maintain consistent terminology and style throughout</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="editing-process">
+                        <h2>Our Editing Process</h2>
+                        <div class="process-steps">
+                            <div class="step">
+                                <div class="step-number">1</div>
+                                <h3>Initial Assessment</h3>
+                                <p>Review document structure and identify improvement areas</p>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">2</div>
+                                <h3>Technical Review</h3>
+                                <p>Check technical accuracy and compliance requirements</p>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">3</div>
+                                <h3>Content Enhancement</h3>
+                                <p>Improve clarity, flow, and readability</p>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">4</div>
+                                <h3>Quality Assurance</h3>
+                                <p>Final review and quality check before delivery</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="editing-cta">
+                        <h2>Ready to Enhance Your Documents?</h2>
+                        <p>Let our experts review and improve your technical documentation</p>
+                        <button class="btn btn--primary" data-page="contact">Request Technical Editing</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Page -->
+        <section id="contact" class="page">
+            <div class="container">
+                <div class="page-header">
+                    <h1>Contact Us</h1>
+                    <p>Get in touch to discuss your RFP and tender requirements</p>
+                </div>
+                
+                <div class="contact-content">
+                    <div class="contact-form-section">
+                        <h2>Send Us a Message</h2>
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name" class="form-label">Full Name *</label>
+                                    <input type="text" id="name" name="name" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email" class="form-label">Email Address *</label>
+                                    <input type="email" id="email" name="email" class="form-control" required>
+                                </div>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="phone" class="form-label">Phone Number</label>
+                                    <input type="tel" id="phone" name="phone" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="company" class="form-label">Company Name</label>
+                                    <input type="text" id="company" name="company" class="form-control">
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="service" class="form-label">Service Required</label>
+                                <select id="service" name="service" class="form-control">
+                                    <option value="">Select a service...</option>
+                                    <option value="bid-writing">Bid Writing</option>
+                                    <option value="technical-writing">Technical Writing</option>
+                                    <option value="bid-management">Bid Management</option>
+                                    <option value="technical-editing">Technical Editing</option>
+                                    <option value="bid-enhancement">Bid Enhancement/Review</option>
+                                    <option value="document-formatting">Document Standardisation</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message *</label>
+                                <textarea id="message" name="message" class="form-control" rows="5" placeholder="Tell us about your project requirements..." required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                        </form>
+                    </div>
+                    
+                    <div class="contact-info">
+                        <h2>Get In Touch</h2>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h3>Phone</h3>
+                                <p>+44 20 7123 4567</p>
+                                <p class="emergency">Emergency: +44 7700 123456</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p>info@eliterfpsolutions.co.uk</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Address</h3>
+                                <p>Suite 15, Business Centre<br>
+                                123 London Road<br>
+                                Manchester M1 2AB<br>
+                                United Kingdom</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h3>Business Hours</h3>
+                                <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Privacy Policy Page -->
+        <section id="privacy" class="page">
+            <div class="container">
+                <div class="page-header">
+                    <h1>Privacy Policy</h1>
+                    <p>How we collect, use, and protect your personal information</p>
+                </div>
+                
+                <div class="privacy-content">
+                    <div class="privacy-section">
+                        <h2>1. Information We Collect</h2>
+                        <p>We collect information you provide directly to us, such as when you create an account, fill out a form, or contact us. This may include your name, email address, phone number, company information, and any messages you send us.</p>
+                    </div>
+                    
+                    <div class="privacy-section">
+                        <h2>2. How We Use Your Information</h2>
+                        <p>We use the information we collect to:</p>
+                        <ul>
+                            <li>Provide, maintain, and improve our services</li>
+                            <li>Process transactions and send related information</li>
+                            <li>Send technical notices and support messages</li>
+                            <li>Respond to comments, questions, and customer service requests</li>
+                            <li>Communicate about products, services, and events</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="privacy-section">
+                        <h2>3. Information Sharing</h2>
+                        <p>We do not sell, trade, or otherwise transfer your personal information to third parties without your consent, except as described in this policy. We may share your information with trusted partners who assist us in operating our website and conducting business.</p>
+                    </div>
+                    
+                    <div class="privacy-section">
+                        <h2>4. Data Security</h2>
+                        <p>We implement appropriate security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. However, no method of transmission over the internet is 100% secure.</p>
+                    </div>
+                    
+                    <div class="privacy-section">
+                        <h2>5. Your Rights</h2>
+                        <p>Under GDPR, you have the right to access, update, or delete your personal information. You may also object to processing or request data portability. Contact us at info@eliterfpsolutions.co.uk to exercise these rights.</p>
+                    </div>
+                    
+                    <div class="privacy-section">
+                        <h2>6. Contact Us</h2>
+                        <p>If you have questions about this Privacy Policy, please contact us at:</p>
+                        <p>Email: info@eliterfpsolutions.co.uk<br>
+                        Phone: +44 20 7123 4567<br>
+                        Address: Suite 15, Business Centre, 123 London Road, Manchester M1 2AB, United Kingdom</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Elite RFP Solutions</h3>
+                    <p>Transform Your Bids Into Winning Proposals</p>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-phone"></i> +44 20 7123 4567</p>
+                        <p><i class="fas fa-envelope"></i> info@eliterfpsolutions.co.uk</p>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#" data-page="services">Bid Writing</a></li>
+                        <li><a href="#" data-page="services">Technical Writing</a></li>
+                        <li><a href="#" data-page="services">Bid Management</a></li>
+                        <li><a href="#" data-page="technical-editing">Technical Editing</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#" data-page="about">About Us</a></li>
+                        <li><a href="#" data-page="case-studies">Case Studies</a></li>
+                        <li><a href="#" data-page="blog">News & Blog</a></li>
+                        <li><a href="#" data-page="contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#" data-page="privacy">Privacy Policy</a></li>
+                        <li><a href="#" data-page="privacy">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Elite RFP Solutions. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
