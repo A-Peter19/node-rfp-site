@@ -2197,4 +2197,25 @@ textarea.form-control {
     display: block !important;
     page-break-after: always;
   }
+
+  /* --- Force all nav links to be highly visible --- */
+.navbar .nav__menu .nav__item .nav__link,
+.navbar .nav__menu .nav__link,
+.nav__menu .nav__item .nav__link,
+.nav__link {
+  color: #1a365d !important;      /* Deep dark blue, matches your logo text */
+  background: transparent !important;
+  font-weight: 700 !important;
+  opacity: 1 !important;
+  text-shadow: none !important;
+}
+
+/* To highlight the one that is "active" */
+.nav__link.active,
+.nav__link:active,
+.nav__item .nav__link.active {
+  background: #20b2aa !important;    /* Turquoise background */
+  color: #fff !important;            /* White text for contrast */
+}
+
 }
